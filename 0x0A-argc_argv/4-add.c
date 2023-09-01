@@ -24,7 +24,7 @@ return (0);
 }
 count++;
 }
-return (1);
+return (3);
 }
 /**
  * main - Print the name of the program
