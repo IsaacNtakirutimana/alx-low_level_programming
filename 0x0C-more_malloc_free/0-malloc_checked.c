@@ -10,7 +10,7 @@
 void *malloc_checked(unsigned int b)
 {
 int *isaac;
-isaac= malloc(b);
+isaac = malloc(b);
 if (isaac == NULL)
 exit(98);
 
