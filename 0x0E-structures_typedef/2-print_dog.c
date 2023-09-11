@@ -1,4 +1,4 @@
-nclude "dog.h"
+#include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,6 +6,7 @@ nclude "dog.h"
  * print_dog - prints a struct dog
  * @d: pointer to struct dog to init
  */
+
 void print_dog(struct dog *d)
 {
 if (d == NULL)
